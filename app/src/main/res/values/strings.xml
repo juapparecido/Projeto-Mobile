@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">diogoddc</string>
+
+    <string name="txt1a">Sejam Bem-Vindos ao</string>
+    <string name="txt1b">Museu Digital do Brasileirão 2023</string>
+    <string name="txt1c">Toque na tela para avançar</string>
+
+    <string name="todo">TODO</string>
+
+    <string name="epdisp">Equipes Disponíveis:</string>
+    <string name="fim">------------------------------------------------------</string>
+
+    <string name="AmericaMG">América-MG</string>
+    <string name="AthleticoPR">Athletico-PR</string>
+    <string name="AtleticoMG">Atlético-MG</string>
+    <string name="Bahia">Bahia</string>
+    <string name="Botafogo">Botafogo</string>
+    <string name="Corinthians">Corinthians</string>
+    <string name="Coritiba">Coritiba</string>
+    <string name="Cruzeiro">Cruzeiro</string>
+    <string name="Cuiaba">Cuiabá</string>
+    <string name="Flamengo">Flamengo</string>
+    <string name="Fluminense">Fluminense</string>
+    <string name="Fortaleza">Fortaleza</string>
+    <string name="Goias">Goiás</string>
+    <string name="Gremio">Grêmio</string>
+    <string name="Internacional">Internacional</string>
+    <string name="Palmeiras">Palmeiras</string>
+    <string name="RBBragantino">RB Bragantino</string>
+    <string name="Santos">Santos</string>
+    <string name="SaoPaulo">São Paulo</string>
+    <string name="Vasco">Vasco</string>
+
+</resources>
