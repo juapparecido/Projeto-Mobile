@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Diogoddc"
+        tools:targetApi="31">
+        <activity
+            android:name=".AmericaMGActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AthleticoPRActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AtleticoMGActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BahiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BotafogoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CorinthiansActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CoritibaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CruzeiroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CuiabaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FlamengoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FluminenseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FortalezaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoiasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GremioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InternacionalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PalmeirasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RBBragantinoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SantosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SaoPauloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VascoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MuseuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
