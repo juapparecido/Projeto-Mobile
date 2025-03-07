@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#010329"
+    tools:context=".MuseuActivity">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#010329"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ep_disp"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginHorizontal="50dp"
+            android:gravity="center|center_horizontal"
+            android:text="@string/epdisp"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/btn_AmericaMG"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#1E9A65"
+            android:text="@string/AmericaMG"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_americamg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ep_disp" />
+
+        <Button
+            android:id="@+id/btn_AthleticoPR"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#c8102e"
+            android:text="@string/AthleticoPR"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_athleticopr"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_AmericaMG" />
+
+        <Button
+            android:id="@+id/btn_AtleticoMG"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#231f20"
+            android:text="@string/AtleticoMG"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_atleticomg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_AthleticoPR" />
+
+        <Button
+            android:id="@+id/btn_Bahia"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#006cb5"
+            android:text="@string/Bahia"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_bahia"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_AtleticoMG" />
+
+        <Button
+            android:id="@+id/btn_Botafogo"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#0E0E0E"
+            android:text="@string/Botafogo"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_botafogo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Bahia" />
+
+
+        <Button
+            android:id="@+id/btn_Corinthians"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="@color/black"
+            android:text="@string/Corinthians"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_corinthians"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Botafogo" />
+
+        <Button
+            android:id="@+id/btn_Coritiba"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#00544d"
+            android:text="@string/Coritiba"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_coritiba"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Corinthians" />
+
+        <Button
+            android:id="@+id/btn_Cruzeiro"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#3057AA"
+            android:text="@string/Cruzeiro"
+            android:textColor="#ffe100"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_cruzeiro"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Coritiba" />
+
+        <Button
+            android:id="@+id/btn_Cuiaba"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#ffdb01"
+            android:text="@string/Cuiaba"
+            android:textColor="#018c35"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_cuiaba"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Cruzeiro" />
+
+        <Button
+            android:id="@+id/btn_Flamengo"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#BC2615"
+            android:text="@string/Flamengo"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_flamengo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Cuiaba" />
+
+        <Button
+            android:id="@+id/btn_Fluminense"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#8c2a3c"
+            android:text="@string/Fluminense"
+            android:textColor="#1DA175"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_fluminense"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Flamengo" />
+
+        <Button
+            android:id="@+id/btn_Fortaleza"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#144E8C"
+            android:text="@string/Fortaleza"
+            android:textColor="#B8221F"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_fortaleza"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Fluminense" />
+
+        <Button
+            android:id="@+id/btn_Goias"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#005e39"
+            android:text="@string/Goias"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_goias"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Fortaleza" />
+
+        <Button
+            android:id="@+id/btn_Gremio"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#2ebbff"
+            android:text="@string/Gremio"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_gremio"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Goias" />
+
+        <Button
+            android:id="@+id/btn_Internacional"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#e5050f"
+            android:text="@string/Internacional"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_internacional"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Gremio" />
+
+        <Button
+            android:id="@+id/btn_Palmeiras"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#004f11"
+            android:text="@string/Palmeiras"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_palmeiras"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Internacional"/>
+
+
+        <Button
+            android:id="@+id/btn_RBBragantino"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#001e3f"
+            android:text="@string/RBBragantino"
+            android:textColor="#d61e3f"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_redbullbragantino"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Palmeiras" />
+
+        <Button
+            android:id="@+id/btn_Santos"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#ffffff"
+            android:text="@string/Santos"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_santos"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_RBBragantino" />
+
+        <Button
+            android:id="@+id/btn_SaoPaulo"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#ffffff"
+            android:text="@string/SaoPaulo"
+            android:textColor="#FF0000"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_saopaulo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Santos" />
+
+
+        <Button
+            android:id="@+id/btn_Vasco"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:paddingHorizontal="70dp"
+            android:backgroundTint="#070606"
+            android:text="@string/Vasco"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:gravity="center|center_vertical"
+            android:drawableStart="@drawable/ic_vascodagama"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_SaoPaulo" />
+
+        <TextView
+            android:id="@+id/txt1_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginHorizontal="50dp"
+            android:text="@string/fim"
+            android:textSize="20sp"
+            android:textColor="#010329"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/btn_Vasco" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
